@@ -34,6 +34,7 @@ m_glm <- glm(
   family = binomial
 )
 
+summary(m_glm)
 emm <- emmeans(m_glm, ~ Treatment)
 #
 
